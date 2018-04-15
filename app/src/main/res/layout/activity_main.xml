@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
     android:orientation="vertical"
     android:background="#ffffff">
 
     <ImageView
-        android:layout_margin="14dp"
+        android:layout_margin="12dp"
         android:id="@+id/imageView"
         android:layout_width="267dp"
         android:layout_height="234dp"
@@ -22,15 +22,17 @@
         android:layout_width="169dp"
         android:layout_height="71dp"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="14dp"
+        android:layout_margin="1dp"
         android:background="#34e2c8"
-        android:text="Read Rss Sport News" />
+        android:text="Read Rss Sport News"
+        android:onClick="onClickReadRss"/>
 
     <Button
         android:layout_width="134dp"
         android:layout_height="34dp"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         android:background="#23d8f4"
-        android:text="About me" />
+        android:text="About me"
+        android:onClick="onClickReadRss"/>
 </LinearLayout>

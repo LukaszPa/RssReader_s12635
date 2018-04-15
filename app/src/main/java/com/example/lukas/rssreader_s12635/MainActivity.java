@@ -2,6 +2,7 @@ package com.example.lukas.rssreader_s12635;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /*
-    ssss
-     */
+    public void onClickReadRss( View view) {
+
+
+    }
 }
