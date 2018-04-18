@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration" showBalloons="false">
+    <notification groupId="Debugger messages" displayType="TOOL_WINDOW" />
+    <notification groupId="Remote Desktop" />
+  </component>
+</application>
