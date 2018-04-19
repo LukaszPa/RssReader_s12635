@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="org.xmlpull.v1.XmlPullParser.require(type,namespace,name)" />
+        <added pattern="android.text.Html.toHtml(text,option)" />
       </blacklist>
     </blacklists>
   </component>
